@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+       <meta charset="utf-8">
+       <title>My Work</title>
+       <meta name="discription" content="松沢成美のポートフォリオ。">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="icon" href="">
+       <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+       <link rel="stylesheet" href="css/style.css">
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+       <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+       <header id="header">
+         <h1 class="site-title"><a href="index.html"><img src="img/MyWork.png" alt="MyWork"></a></h1>
+         <nav>
+           <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+           </ul>
+         </nav>
+        </header>
+
+        <main>
+         <div id="mainvisual">
+           <img src="img/210816_designcamp_03.jpg" alt="mainvisual">
+         </div>
+
+         <section id="about" class="wrapper">
+          <h2 class="section-title"><img src="img/about.png" alt="About"></h2>
+          <div class="content">
+            <div class="myphoto">
+             <img src="img/Kento&Nana.jpg" alt="myphoto">
+            </div>
+            <div class="text">
+              <h3 class="content-title">松沢成美</h3>
+              <ul>
+                <li>1993年　福島県生まれ</li>
+                <li>2014年　女子美術大学短期大学部卒業</li>
+                <li>2017年　株式会社セラク入社</li>
+              </ul>
+              <p>
+                お休みの日はゲームしたり、絵を描いたり、美術館行ったりする日々<br>
+                写真は愛猫のナナ（黒猫）＆ケント（茶猫）
+              </p>
+            </div>
+          </div>
+        </section>
+
+         <section id="works" class="wrapper">
+           <h2 class="section-title"><img src="img/works.png" alt="Works"></h2>
+           <div class="items">
+             <div class="item">
+               <a href="img/化粧品バナー01.jpg" data-lightbox="works" data-title="化粧品バナー01">
+                <img src="img/化粧品バナー01_thumbnail.jpg" alt="化粧品バナー01">
+               </a>
+             </div>
+             <div class="item">
+               <a href="img/化粧品バナー02.jpg" data-lightbox="works" data-title="化粧品バナー02">
+                <img src="img/化粧品バナー02_thumbnail.jpg" alt="化粧品バナー02">
+               </a>
+             </div>
+             <div class="item">
+               <a href="img/化粧品バナー03.jpg" data-lightbox="works" data-title="化粧品バナー03">
+                <img src="img/化粧品バナー03_thumbnail.jpg" alt="化粧品バナー03">
+               </a>
+             </div>
+             <div class="item">
+               <a href="img/SUMMERSALE01.jpg" data-lightbox="works" data-title="SUMMERSALE01">
+                <img src="img/SUMMERSALE01_thumbnail.jpg" alt="SUMMERSALE01">
+               </a>
+             </div>
+             <div class="item">
+               <a href="img/SPECIALSALE01.jpg" data-lightbox="works" data-title="SPECIALSALE01">
+                <img src="img/SPECIALSALE01_thumbnail.jpg" alt="SPECIALSALE01">
+               </a>
+             </div>
+             <div class="item">
+               <a href="img/SUMMERSALE02.jpg" data-lightbox="works" data-title="SUMMERSALE02">
+                <img src="img/SUMMERSALE2_thumbnail.jpg" alt="SUMMERSALE02">
+               </a>
+             </div>
+             <div class="item">
+               <a href="img/SUMMERWEAR.jpg" data-lightbox="works" data-title="SUMMERWEAR">
+                <img src="img/SUMMERWEAR_thumbnail.jpg" alt="SUMMERWEAR01">
+               </a>
+             </div>
+             <div class="item">
+               <a href="img/APPゲーム01.jpg" data-lightbox="works" data-title="APPゲーム01">
+                <img src="img/APPゲーム01_thumbnail.jpg" alt="APPゲーム01">
+               </a>
+             </div>
+             <div class="item">
+               <a href="img/APPゲーム02.jpg" data-lightbox="名前" data-title="APPゲーム02">
+                <img src="img/APPゲーム02_thumbnail.jpg" alt="APPゲーム02">
+               </a>
+             </div>  
+          </div>
+         </section>
+
+         <section id="contact">
+           <h2 class="section-title"><img src="img/contact.png" alt="Contact"></h2>
+           <div class="content">
+           <form>
+             <dl>
+              <dt><label for="name">Name</label></dt>
+              <dd><input type="text" id="name" name="your-name"></dd>
+              <dt><label for="email">E-mail</label></dt>
+              <dd><input type="email" id="email" name="your-email"></dd>
+              <dt><label for="messeage">Message</label></dt>
+              <dd><textarea type="messeage" id="messeage" name="your-message"></textarea></dd>
+             </dl>
+             <div class="button"><input type="submit" value="送信"></div>
+           </form>
+           </div>
+         </section>
+        </main>
+
+        <footer id="footer">
+          <p>&copy; 2021 My Work</p>
+        </footer>
+    </body>
+</html>
