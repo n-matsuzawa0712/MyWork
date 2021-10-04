@@ -159,7 +159,7 @@ contact
   width: 100%;
   border: solid 1.5px #dac49b;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 #contact dd textarea {
@@ -184,7 +184,7 @@ contact
 }
 
 /*-------------------------------------------
-フッター
+footer
 -------------------------------------------*/
 #footer {
   background-color: #dac49b;
